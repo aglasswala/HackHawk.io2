@@ -12,7 +12,7 @@ const app = express();
 var session = require('express-session');
 
 //this is just for testing purpose
-//
+//Test#2 push request
 
 //routes
 var mongotest = require('./routes/mongotest');
@@ -20,7 +20,7 @@ var registerRouter = require('./routes/register');
 var loginRouter = require ('./routes/login');
 
 
-//View engine setu
+//View engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.engine('handlebars', exphbs({
     extname : 'handlebars',
